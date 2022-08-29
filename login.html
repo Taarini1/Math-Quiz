@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ 
+    <link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<body class="body_backgorund">
+<h4 id="player1_name"></h4><span id="player1_score"></span>
+<br>
+<h4 id="player2_name"></h4><span id="player2_score"></span>
+</body>
+<div class="container">
+    <center>
+        <h2 class="Heading">THE MATH QUIZ GAME!</h2>
+        <br>
+		<br>
+		<div class="question">
+		<h2 id="question_turn">Question Turn: </h2>
+		
+		<h2 id="answer_turn">Answer Turn: </h2>
+<br>
+		<div id="output" class="col-lg-6"></div>
+
+	
+		<br>
+		<h4>Number 1</h4>
+        <input id="number1" placeholder="Number 1" class="form-control">
+       <h4>Number 2</h4>
+        <input id="number2" placeholder="Number 2" class="form-control">
+		<br>
+        <br>
+		<button id="send_btn" class="btn btn-danger" onclick="Send()">SEND</button>
+    </div>
+    </center>
+</div>
+<script src="login.js"></script>
+</html>

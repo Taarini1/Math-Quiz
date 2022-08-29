@@ -1,0 +1,40 @@
+.body_backgorund
+ {
+ background-color: aquamarine;
+    background-position:center;
+    background-size:cover;
+  }
+
+  .Heading{
+color:indigo;
+font-weight:bold;
+background-color: azure;
+font-size: 30px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+width:fit-content;
+  }
+
+  .question{
+font-weight: bold;
+  }
+
+  h4{
+    font-weight:bold;
+    font-size:x-large;
+  }
+
+  #output{
+    background:white;
+    border-radius:10px;
+    border-top:10px solid #6c0b55;
+    padding: 10px;
+    float:none;
+    text-align:left;
+    width: 500px;
+  }
+
+  #send_btn{
+    background-color: blue;
+    font-size:20px;
+    color:beige;
+  }

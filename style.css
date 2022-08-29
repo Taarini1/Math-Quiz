@@ -1,0 +1,44 @@
+.body_backgorund
+ {
+    background-image:url("astronomy-1867616__480.jpg");
+    background-position:center;
+    background-size:cover;
+  }
+h2{
+    font-size:30px;
+    color:azure;
+}
+.login_div1{
+border-color: blueviolet;
+font-size: large;
+background-color: aqua;
+border-radius: 50px;
+width:250px;
+height:150px;
+  }
+
+  .text_box{
+    font-size: larger;
+    font-weight: bolder;
+    width:180px;
+  }
+
+  .login_div2{
+    border-color: blueviolet;
+    font-size: large;
+    background-color: aqua;
+    border-radius: 50px;
+    width:250px;
+    height:150px;
+      }
+
+      #Login_btn{
+        font-size: large;
+        border-radius: 90px;
+       width:150px;
+       height:50px;
+       cursor: pointer;
+       background-color: chocolate;
+       font-family: Georgia, 'Times New Roman', Times, serif;
+       font-weight: bolder;
+      }
